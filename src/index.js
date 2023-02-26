@@ -1,10 +1,10 @@
 /**
  * Reduxefy
  *
- * @author    Anees Muzzafer Shah
+ * @author    Anees Muzzafer
  *
  * @copyright Anees Muzzafer
- * @link https://github.com/AneesMuzzafer
+ * @link      https://github.com/AneesMuzzafer
  *
  */
 
