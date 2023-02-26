@@ -13,9 +13,13 @@ You can install this package via npm by running:
 ## Usage
 
 **Reduxefy** may be a lightweight implementation of Redux, but it still packs a punch. Just like Redux, it exports:
+
 > ***createStore***
+
 > ***combineReducers***
+
 > ***applyMiddeware*** enhancer
+
 > ***thunkMiddleware***
 
 to give you all the essential tools for managing your app's state. And with Reduxefy's stripped-down approach, you can enjoy all of these features without feeling like you're carrying around unnecessary baggage. So go ahead, give Reduxefy a spin and see how it compares to the big dog in the yard.
