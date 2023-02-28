@@ -15,11 +15,8 @@ You can install this package via npm by running:
 **Reduxefy** may be a lightweight implementation of Redux, but it still packs a punch. Just like Redux, it exports:
 
 > ***createStore***
-
 > ***combineReducers***
-
 > ***applyMiddeware*** enhancer
-
 > ***thunkMiddleware***
 
 to give you all the essential tools for managing your app's state. And with Reduxefy's stripped-down approach, you can enjoy all of these features without feeling like you're carrying around unnecessary baggage. So go ahead, give Reduxefy a spin and see how it compares to the big dog in the yard.
@@ -30,14 +27,14 @@ Use createStore just like you'd do with Redux
 import { createStore } from 'reduxefy';
 
 function counter(state = 0, action) {
-	  switch (action.type) {
-		    case 'INCREMENT':
-			      return state + 1;
-		    case 'DECREMENT':
-			      return state - 1;
-		    default:
-			      return state;
-	  }
+	switch (action.type) {
+		case 'INCREMENT':
+			return state + 1;
+		case 'DECREMENT':
+			return state - 1;
+		default:
+			return state;
+	}
 }
 
 const store = createStore(counter);
@@ -131,7 +128,7 @@ store.dispatch({ type: "SET_USER", payload: "Jack Sparrow" });
 
 ```
 
-You're free to take a snoop at the source code and witness the magic for yourself. Sure, I might have taken a completely different approach than the Redux overlords and it might not be as elegant, but that's actually the best part about this.
+You're free to take a snoop at the source code and witness the magic for yourself. Sure, I might have taken a completely different approach than the Redux overlords and it might not be as elegant, but that's actually the best part about this!
 
 
 ## License
